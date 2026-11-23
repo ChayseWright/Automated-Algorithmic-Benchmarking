@@ -1,0 +1,36 @@
+{
+  "softwareVersion": "4.0.0",
+  "date": "2026-11-12",
+  "checks": [
+    {
+      "check": "check_structure.py",
+      "passed": true,
+      "kind": "lexical_structure"
+    },
+    {
+      "check": "check_numerics.py",
+      "passed": true,
+      "kind": "independent_equations_and_source_inspection"
+    },
+    {
+      "check": "check_study_numerics.py",
+      "passed": true,
+      "kind": "independent_equations_and_source_inspection"
+    },
+    {
+      "check": "check_revision3_numerics.py",
+      "passed": true,
+      "kind": "independent_equations_and_source_inspection"
+    },
+    {
+      "check": "check_motion_numerics.py",
+      "passed": true,
+      "kind": "independent_equations_and_source_inspection"
+    }
+  ],
+  "matlabSourceFiles": 312,
+  "MATLABNativeTestsExecuted": false,
+  "MATLABNativeStatus": "runtime_unavailable_not_executed",
+  "PatientDataAnalyzed": false,
+  "motionAddendumSHA256": "181d7ceb7b5d6407c1d59121ce93b249aa1f8a2b05233016f8f8583b0e961412"
+}

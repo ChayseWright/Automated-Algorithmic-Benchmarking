@@ -1,0 +1,133 @@
+{
+  "MATLAB_native_tests_executed_here": false,
+  "patient_data_analyzed_here": false,
+  "AA_response": [
+    {
+      "inputFs": 1000,
+      "taps": 441,
+      "passErrorDB": 0.00028504723703256314,
+      "stopAttenuationDB": 91.09542108873362,
+      "halfSupportSeconds": 0.22
+    },
+    {
+      "inputFs": 1111,
+      "taps": 489,
+      "passErrorDB": 0.00028850266862734023,
+      "stopAttenuationDB": 91.2580255809999,
+      "halfSupportSeconds": 0.21962196219621963
+    },
+    {
+      "inputFs": 2500,
+      "taps": 1097,
+      "passErrorDB": 0.0002934080384978229,
+      "stopAttenuationDB": 91.60546026401867,
+      "halfSupportSeconds": 0.2192
+    }
+  ],
+  "passband_tones_and_harmonics": [
+    {
+      "inputFs": 1000,
+      "frequency": 3,
+      "gain": 1.0000109449321424,
+      "phase": 1.4997637918295118e-16
+    },
+    {
+      "inputFs": 1000,
+      "frequency": 6,
+      "gain": 1.0000101063556466,
+      "phase": 2.667323579335693e-16
+    },
+    {
+      "inputFs": 1000,
+      "frequency": 9,
+      "gain": 0.9999989263160209,
+      "phase": -3.0623501223577783e-16
+    },
+    {
+      "inputFs": 1000,
+      "frequency": 18,
+      "gain": 0.9999946857760453,
+      "phase": -6.626080885842995e-17
+    },
+    {
+      "inputFs": 1000,
+      "frequency": 27,
+      "gain": 0.9999982574662837,
+      "phase": 1.6411416987311539e-15
+    },
+    {
+      "inputFs": 1111,
+      "frequency": 3,
+      "gain": 1.0000128570002034,
+      "phase": 2.791739054469077e-16
+    },
+    {
+      "inputFs": 1111,
+      "frequency": 6,
+      "gain": 1.0000140226722793,
+      "phase": -1.3119901911117232e-16
+    },
+    {
+      "inputFs": 1111,
+      "frequency": 9,
+      "gain": 1.0000044077575707,
+      "phase": -3.7570136053678205e-16
+    },
+    {
+      "inputFs": 1111,
+      "frequency": 18,
+      "gain": 1.0000113474658197,
+      "phase": -1.8579392179467612e-15
+    },
+    {
+      "inputFs": 1111,
+      "frequency": 27,
+      "gain": 1.0000213925150407,
+      "phase": 9.484250939517857e-16
+    },
+    {
+      "inputFs": 2500,
+      "frequency": 3,
+      "gain": 1.0000142754261316,
+      "phase": 3.203637970564858e-17
+    },
+    {
+      "inputFs": 2500,
+      "frequency": 6,
+      "gain": 1.0000134356207089,
+      "phase": 9.246095174055042e-17
+    },
+    {
+      "inputFs": 2500,
+      "frequency": 9,
+      "gain": 0.9999990138737538,
+      "phase": -2.484717293544154e-16
+    },
+    {
+      "inputFs": 2500,
+      "frequency": 18,
+      "gain": 0.9999951743715327,
+      "phase": -1.3427822148589882e-15
+    },
+    {
+      "inputFs": 2500,
+      "frequency": 27,
+      "gain": 1.0000003941938271,
+      "phase": 4.696903120751012e-16
+    }
+  ],
+  "pure_FM_carrier_RMS_error": 1.3775792815858923e-06,
+  "fractional_rate_gaps_and_channel_clock": true,
+  "demodulation_order": {
+    "envelope_6Hz_gain": 0.3182877451326801,
+    "premature_raw_reduction_6Hz_gain": 1.691767533915771e-08
+  },
+  "balanced_ridge_logistic_objective_difference": 0.0,
+  "training_control_threshold_ties": true,
+  "ranked_probability_score_perfect_zero": true,
+  "power_cross_term_requires_waveform_difference": true,
+  "explicit_package_symbols_resolve": 177,
+  "implemented_catalog_entries": 58,
+  "catalog_entries_rejected_until_supported": 54,
+  "MATLAB_files": 312
+}

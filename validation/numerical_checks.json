@@ -1,0 +1,15 @@
+{
+  "one_sided_PSD_area": 0.5000000000000004,
+  "DPSS_match_to_SciPy_max_error": 1.0527684409997184e-14,
+  "raw_to_envelope_scaling_max_error": 3.1086244689504383e-15,
+  "gap_support_is_not_concatenated": true,
+  "Welch_CFAR_tone_frequency_Hz": 6.0546875,
+  "fixed_observer_guard_leakage_max_error": 1.2578826869003024e-13,
+  "variance_cross_term_identity_error": 2.220446049250313e-16,
+  "occupancy_power_identity": true,
+  "Gaussian_AM_variance_Monte_Carlo_relative_error": 0.00018283540762098482,
+  "package_direct_calls_resolve": true,
+  "matlab_files": 312,
+  "MATLAB_native_tests_executed_here": false,
+  "patient_data_analyzed_here": false
+}

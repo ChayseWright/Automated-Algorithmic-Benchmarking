@@ -1,0 +1,63 @@
+{
+  "softwareVersion": "4.0.0",
+  "benchmarkProtocolVersion": 2,
+  "created": "2026-11-10",
+  "primarySearchHz": [
+    3,
+    9
+  ],
+  "selectionPriority": "lower_severity_capture_with_constraints",
+  "primaryPipelines": 6,
+  "catalogEntries": 112,
+  "implementedEntries": 58,
+  "unavailableEntries": 54,
+  "MATLABNativeTestsExecuted": false,
+  "PatientDataAnalyzed": false,
+  "executedChecks": [
+    "validation/check_structure.py",
+    "validation/check_numerics.py",
+    "validation/check_study_numerics.py",
+    "validation/check_revision3_numerics.py",
+    "validation/check_motion_numerics.py"
+  ],
+  "sourcePDFSHA256": "0fa4b3fb0abaf54645988cb65a991d18cda849ba4c9ea05e9b1debe1d35c5be7",
+  "deliveryRevision": 4,
+  "reissuedOn": "2026-11-12",
+  "rerunValidation": {
+    "structuralAudit": "passed",
+    "independentNumericalChecks": "passed",
+    "MATLABNativeTests": "not_executed_runtime_unavailable",
+    "patientDataAnalyzed": false
+  },
+  "initialCandidateBudgetPerMethod": 64,
+  "refinementRounds": 2,
+  "refinementCandidatesPerRound": 16,
+  "refinementSeeds": 3,
+  "candidateBatchSize": 32,
+  "calibrationCases": 75,
+  "calibrationPatterns": [
+    "continuous",
+    "early",
+    "middle",
+    "late",
+    "multiple"
+  ],
+  "parameterSearch": "exhaust_small_spaces_else_value_coverage_then_training_only_refinement",
+  "matlabSourceFiles": 312,
+  "motionAddendumSHA256": "181d7ceb7b5d6407c1d59121ce93b249aa1f8a2b05233016f8f8583b0e961412",
+  "motionBenchmarkEnabledByDefault": false,
+  "motionModules": [
+    "independent_reference_and_sync",
+    "matched_EMG_analysis",
+    "mechanical_and_clinical_benchmarks"
+  ],
+  "motionEndpoints": [
+    "M1_frequency",
+    "M2_episodes",
+    "M3_missed_burden",
+    "M4_physical_prediction",
+    "M5_association",
+    "M6_unsupported_alarms",
+    "operational_retention"
+  ]
+}

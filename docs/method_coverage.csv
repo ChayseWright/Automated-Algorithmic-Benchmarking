@@ -1,0 +1,113 @@
+id,section,family,variant,description,cost,readiness,implementationScope
+welch_cfar,2;9.2.1,legacy,welch,Mean Welch / ordered-statistic comparator,normal,implemented,compact_research_implementation
+hann_tracker,2;9.2.1,legacy,hann,Local Hann / off-state DP,normal,implemented,compact_research_implementation
+dpss_tracker,2;9.2.1,legacy,dpss,Local DPSS / off-state DP,normal,implemented,compact_research_implementation
+switching_harmonic_kalman,2;9.2.1,legacy,kalman,Original conditional-frequency robust Kalman starter,normal,implemented,compact_research_implementation
+rms_envelope,3,representation,rms,Root local carrier energy,normal,implemented,compact_research_implementation
+variance_envelope,3,representation,variance,Local carrier energy detector,normal,implemented,compact_research_implementation
+analytic_envelope,3,representation,analytic,Analytic carrier magnitude,normal,implemented,compact_research_implementation
+analytic_power,3,representation,analytic_power,Squared analytic carrier magnitude,normal,implemented,compact_research_implementation
+multiband_demodulation,3,representation,multiband,Fixed-band normalized envelope fusion,normal,implemented,compact_research_implementation
+log_power_envelope,3,representation,log_power,Log energy detector,normal,implemented,compact_research_implementation
+robust_envelope,3,representation,robust,Winsorized detection branch,normal,implemented,compact_research_implementation
+tkeo_packets,3,representation,tkeo,Teager-Kaiser packet proposals,normal,implemented,compact_research_implementation
+second_moment_packets,3,representation,second_moment,Local second-moment packet proposals,normal,implemented,compact_research_implementation
+periodogram,4;12,spectrum,periodogram,One long periodogram,normal,implemented,compact_research_implementation
+long_welch,4;12,spectrum,long_welch,Long-window Welch,normal,implemented,compact_research_implementation
+median_welch,4;12,spectrum,median,Median Welch with exponential order-statistic correction,normal,implemented,compact_research_implementation
+trimmed_welch,4;12,spectrum,trimmed,Trimmed Welch with exponential correction,normal,implemented,compact_research_implementation
+ca_cfar,4;12,spectrum,ca,Cell-average background comparator,normal,implemented,compact_research_implementation
+trimmed_cfar,4;12,spectrum,trimmed_cfar,Trimmed reference-cell background,normal,implemented,compact_research_implementation
+multitaper_static,4;12,spectrum,multitaper,Record-averaged DPSS spectrum,normal,implemented,compact_research_implementation
+thomson_harmonic_test,4;12,spectrum,thomson,DPSS coherent-line F statistic,normal,implemented,compact_research_implementation
+robust_background_welch,4;12,spectrum,robust_background,Iterative robust log-spectrum background,normal,implemented,compact_research_implementation
+filter_aware_welch,4;12,spectrum,filter_aware,Aperiodic background times known envelope response,normal,implemented,compact_research_implementation
+specparam_type_welch,4;12,spectrum,specparam,Compact log aperiodic-plus-Gaussian fit,normal,implemented,compact_research_implementation
+irasa_welch,4;12,spectrum,irasa,Irregular-resampling geometric background,normal,implemented,compact_research_implementation
+harmonic_comb,4;12,spectrum,comb,Penalized harmonic-candidate comparison,normal,implemented,compact_research_implementation
+autocorrelation,4;12,spectrum,acf,Timestamp-preserving autocorrelation,normal,implemented,compact_research_implementation
+cepstrum,4;12,spectrum,cepstrum,Log-spectrum quefrency proposals,normal,implemented,compact_research_implementation
+lomb_scargle,4;12,spectrum,lomb,Irregular-time harmonic regression,normal,implemented,compact_research_implementation
+ar_yule_walker,4.4,ar,yw,Autoregressive covariance estimate,normal,implemented,compact_research_implementation
+ar_burg,4.4,ar,burg,Burg reflection-coefficient estimate,normal,implemented,compact_research_implementation
+arma_hannan_rissanen,4.4,ar,arma,Two-stage ARMA estimate,normal,implemented,compact_research_implementation
+time_varying_ar,4.4,ar,tvar,Forgetting-factor recursive AR,normal,implemented,compact_research_implementation
+music,4.5,subspace,music,Noise-subspace frequency search,normal,implemented,compact_research_implementation
+esprit,4.5,subspace,esprit,Shift-invariant subspace frequencies,normal,implemented,compact_research_implementation
+matrix_pencil,4.5,subspace,pencil,Hankel exponential-mode pencil,normal,implemented,compact_research_implementation
+atomic_norm_lines,4.5,subspace,atomic,Toeplitz PSD atomic-norm ADMM,expensive,implemented,compact_research_implementation
+multiresolution_stft,5.1;9.2.2,timefrequency,multires,Short/long local spectrum fusion,normal,implemented,compact_research_implementation
+cwt_morlet,5.1;9.2.2,timefrequency,morlet,Complex Morlet transform,normal,implemented,compact_research_implementation
+cwt_morse,5.1;9.2.2,timefrequency,morse,Generalized Morse transform,normal,implemented,compact_research_implementation
+bosc,5.1;9.2.2,timefrequency,bosc,Background-ratio and cycle-duration logic,normal,implemented,compact_research_implementation
+ebosc_type,5.1;9.2.2,timefrequency,ebosc,Burst detection with support-aware edge erosion,normal,implemented,compact_research_implementation
+fbosc_type,5.1;9.2.2,timefrequency,fbosc,Burst detection with fitted aperiodic background,normal,implemented,compact_research_implementation
+optimized_bosc_type,5.1;9.2.2,timefrequency,obosc,Burst detection with peak-excluding robust background,normal,implemented,compact_research_implementation
+superlet,5.1;9.2.2,timefrequency,superlet,Geometric multi-cycle wavelet combination,normal,implemented,compact_research_implementation
+stppto_type,5.1;9.2.2,timefrequency,stppto,Superlet plus periodic/aperiodic background,normal,implemented,compact_research_implementation
+synchrosqueezing,5.1;9.2.2,timefrequency,sst,Thresholded phase-derivative synchrosqueezing,normal,implemented,compact_research_implementation
+reassignment,5.1;9.2.2,timefrequency,reassign,STFT time and frequency reassignment,normal,implemented,compact_research_implementation
+s_transform,5.1;9.2.2,timefrequency,stransform,Frequency-dependent Gaussian S transform,normal,implemented,compact_research_implementation
+smoothed_pseudo_wigner_ville,5.1;9.2.2,timefrequency,spwvd,Lag/time-smoothed quadratic distribution,normal,implemented,compact_research_implementation
+viterbi_track_before_detect,5.1;9.2.2,timefrequency,viterbi,Off-state path inference over local evidence,normal,implemented,compact_research_implementation
+conceft,5.5,timefrequency,conceft,Random Hermite-taper STFT synchrosqueezing,expensive,implemented,compact_research_implementation
+matched_filter_glrt,5.8;8.5,packets,matched,Sinusoidal colored-noise GLRT bank,normal,not_implemented,unavailable_for_automated_study
+harmonic_glrt,5.8;8.5,packets,harmonic,Shared-frequency multi-harmonic GLRT,normal,not_implemented,unavailable_for_automated_study
+chirplet_glrt,5.8;8.5,packets,chirplet,Frequency/chirp packet GLRT,normal,not_implemented,unavailable_for_automated_study
+matching_pursuit,5.8;8.5,packets,omp,Greedy localized harmonic packet pursuit,normal,not_implemented,unavailable_for_automated_study
+group_sparse_packets,5.8;8.5,packets,group_sparse,Group sparse packet support and unpenalized refit,normal,not_implemented,unavailable_for_automated_study
+cycle_by_cycle,5.9,cycles,cycles,Broad-envelope cycle timing audit,normal,not_implemented,unavailable_for_automated_study
+renewal_interburst,5.9,cycles,renewal,Packet-interval renewal evidence,normal,not_implemented,unavailable_for_automated_study
+grid_oscillator,6,oscillator,grid,Interacting frequency-grid oscillators,normal,not_implemented,unavailable_for_automated_study
+switching_oscillator_smoother,6,oscillator,imm,IMM with backward mode probabilities / conditional RTS,normal,not_implemented,unavailable_for_automated_study
+robust_switching_oscillator,6,oscillator,robust,Student-t working observation updates,normal,not_implemented,unavailable_for_automated_study
+contamination_mixture_oscillator,6,oscillator,contamination,Gaussian-contamination observation mixture,normal,not_implemented,unavailable_for_automated_study
+semi_markov_oscillator,6,oscillator,hsmm,Expanded-duration on/off model,normal,not_implemented,unavailable_for_automated_study
+ekf_oscillator,6,oscillator,ekf,Unknown-frequency extended Kalman oscillator,normal,not_implemented,unavailable_for_automated_study
+ukf_oscillator,6,oscillator,ukf,Unknown-frequency unscented Kalman oscillator,normal,not_implemented,unavailable_for_automated_study
+carrier_variance_ekf,6,oscillator,variance_ekf,Gamma-energy working-likelihood log-variance EKF,normal,not_implemented,unavailable_for_automated_study
+particle_oscillator,6.1,oscillator,particle,Rao-Blackwellized frequency/on-off particles,expensive,not_implemented,unavailable_for_automated_study
+amplitude_hmm,6.7,latent,amplitude,Gaussian envelope HMM plus rhythmic proposal,expensive,not_implemented,unavailable_for_automated_study
+time_delay_hmm,6.7,latent,tde,Time-delay covariance HMM,expensive,not_implemented,unavailable_for_automated_study
+gp_quasiperiodic,6.7,latent,quasiperiodic,Local quasi-periodic covariance decomposition,expensive,not_implemented,unavailable_for_automated_study
+gp_spectral_mixture,6.7,latent,spectral_mixture,Local Gaussian spectral-mixture covariance,expensive,not_implemented,unavailable_for_automated_study
+pll,6.8,adaptive,pll,Gated phase-locked loop,normal,not_implemented,unavailable_for_automated_study
+wflc,6.8,adaptive,wflc,Adaptive harmonic frequency combiner,normal,not_implemented,unavailable_for_automated_study
+bmflc,6.8,adaptive,bmflc,Fixed-frequency adaptive combiner bank,normal,not_implemented,unavailable_for_automated_study
+adaptive_line_enhancer,6.8,adaptive,ale,Delayed normalized LMS predictor,normal,not_implemented,unavailable_for_automated_study
+wiener_filter,6.8,adaptive,wiener,Spectral Wiener detection branch,normal,not_implemented,unavailable_for_automated_study
+cyclic_coherence,7,cyclic,global,Carrier frequency-pair cyclic coherence,expensive,implemented,compact_research_implementation
+cyclic_local_tracker,7,cyclic,local,Local carrier cyclic map / off-state tracker,expensive,implemented,compact_research_implementation
+entropy_weighted_cyclic,7,cyclic,entropy,Adaptive negative-entropy carrier weighting,expensive,implemented,compact_research_implementation
+wavelet_shrinkage,8,decomposition,wavelet,Orthogonal Haar shrinkage detector,expensive,not_implemented,unavailable_for_automated_study
+wavelet_packets,8,decomposition,wavelet_packets,Haar packet band proposals,expensive,not_implemented,unavailable_for_automated_study
+emd,8,decomposition,emd,Empirical mode sifting,expensive,not_implemented,unavailable_for_automated_study
+eemd,8,decomposition,eemd,Noise-assisted ensemble sifting,expensive,not_implemented,unavailable_for_automated_study
+ceemdan,8,decomposition,ceemdan,Complete ensemble adaptive-noise sifting,expensive,not_implemented,unavailable_for_automated_study
+hilbert_huang,8,decomposition,hht,EMD instantaneous-frequency proposals,expensive,not_implemented,unavailable_for_automated_study
+vmd,8,decomposition,vmd,Variational narrowband-mode ADMM,expensive,not_implemented,unavailable_for_automated_study
+ssa,8,decomposition,ssa,Hankel oscillatory-pair reconstruction,expensive,not_implemented,unavailable_for_automated_study
+hankel_low_rank,8,decomposition,hankel,Hankel rank truncation,expensive,not_implemented,unavailable_for_automated_study
+robust_pca,8,decomposition,rpca,Inexact augmented-Lagrangian low-rank/sparse split,expensive,not_implemented,unavailable_for_automated_study
+nmf_spectrogram,8,decomposition,nmf,Nonnegative time-frequency motifs,expensive,not_implemented,unavailable_for_automated_study
+tv_baseline,8,decomposition,tv,Total-variation background,expensive,not_implemented,unavailable_for_automated_study
+trend_filtering,8,decomposition,trend,Second-difference trend background,expensive,not_implemented,unavailable_for_automated_study
+bicoherence,8.7;8.8,auxiliary,bicoherence,Fundamental/second-harmonic phase coupling,normal,implemented,compact_research_implementation
+kurtogram,8.7;8.8,auxiliary,kurtosis,Carrier-band kurtosis proposals,normal,implemented,compact_research_implementation
+entropy_band_selection,8.7;8.8,auxiliary,entropy,Carrier-band spectral-entropy proposals,normal,implemented,compact_research_implementation
+convolutional_dictionary,8.5;8.9,learned,dictionary,Frozen learned packet dictionary,expensive,requires_model,unavailable_for_automated_study
+deep_denoiser,8.5;8.9,learned,denoiser,Frozen external neural denoiser,expensive,requires_model,unavailable_for_automated_study
+denoising_autoencoder,8.5;8.9,learned,autoencoder,Trainable compact denoising autoencoder,expensive,requires_model,unavailable_for_automated_study
+transformer_estimator,8.5;8.9,learned,transformer,Frozen external transformer estimator,expensive,requires_model,unavailable_for_automated_study
+learned_spectrogram_classifier,8.5;8.9,learned,classifier,Frozen external spectrogram episode classifier,expensive,requires_model,unavailable_for_automated_study
+ica_single_channel,8.10,unavailable,ica,Spatial ICA requires independent channels,normal,unsupported_input,unavailable_for_automated_study
+spatial_bss_single_channel,8.10,unavailable,bss,Spatial BSS is unidentified from one scalar channel,normal,unsupported_input,unavailable_for_automated_study
+motor_unit_decomposition,8.10,unavailable,motor_units,Requires a validated decomposition implementation / compatible acquisition,normal,unsupported_input,unavailable_for_automated_study
+combo_calibrated_conventional,9.2,combination,conventional,Combination 1: robust background / harmonic comparison / peak area,expensive,not_implemented,unavailable_for_automated_study
+combo_practical_bursts,9.2,combination,practical,Combination 2: multiresolution / off-state tracker / refit,expensive,not_implemented,unavailable_for_automated_study
+combo_wavelet_bursts,9.2,combination,wavelet,Combination 3: Morse / robust background / duration / refit,expensive,not_implemented,unavailable_for_automated_study
+combo_probabilistic_oscillator,9.2,combination,probabilistic,Combination 4: multiresolution initialized robust IMM smoother,expensive,not_implemented,unavailable_for_automated_study
+combo_carrier_informed,9.2,combination,carrier,Combination 5: soft cyclic evidence in robust oscillator,expensive,not_implemented,unavailable_for_automated_study
+combo_drift_focused,9.2,combination,drift,Combination 6: SST / gap-aware ridge / refit,expensive,not_implemented,unavailable_for_automated_study
+combo_sparse_episodes,9.2,combination,sparse,Combination 7: group-sparse chirplet and impulse dictionary,expensive,not_implemented,unavailable_for_automated_study
+combo_concordance_review,9.2,combination,concordance,Combination 8: spectral/probabilistic concordance and review,expensive,not_implemented,unavailable_for_automated_study

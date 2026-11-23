@@ -1,0 +1,48 @@
+{
+  "MATLAB_native_tests_executed_here": false,
+  "patient_data_analyzed_here": false,
+  "full_record_subspace_late_burst": {
+    "burst_start_seconds": 20,
+    "burst_stop_seconds": 28,
+    "valid_samples_used": 2980,
+    "inference_coverage_fraction": 1.0,
+    "pooled_covariance_equivalence_max_error": 6.252776074688882e-13,
+    "MUSIC_frequency_Hz": 5.999999999999989,
+    "ESPRIT_frequency_Hz": 6.001265899585174,
+    "matrix_pencil_frequency_Hz": 6.001167614185501
+  },
+  "atomic_full_coverage_block_tail_cases": 20,
+  "IRASA_guarded_warp_tones": [
+    {
+      "warp_factor": 0.5263157894736842,
+      "expected_frequency_Hz": 11.4,
+      "gain": 1.0000081037583275
+    },
+    {
+      "warp_factor": 0.7692307692307692,
+      "expected_frequency_Hz": 7.800000000000001,
+      "gain": 1.0000092563421403
+    },
+    {
+      "warp_factor": 1.3,
+      "expected_frequency_Hz": 4.615384615384615,
+      "gain": 1.000009309052567
+    },
+    {
+      "warp_factor": 1.9,
+      "expected_frequency_Hz": 3.1578947368421053,
+      "gain": 1.0000093382228725
+    }
+  ],
+  "DPSS_admissible_parameter_repairs": 16,
+  "coverage_anchor_values_represented": true,
+  "source_wiring_inspected_not_executed": [
+    "fold-local adaptive pool",
+    "training-only proposal extraction",
+    "explicit deployment scope",
+    "bounded candidate batches",
+    "preprocessing-owner cache identity",
+    "transform compatibility"
+  ],
+  "MATLAB_files": 312
+}

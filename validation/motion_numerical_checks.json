@@ -1,0 +1,190 @@
+{
+  "MATLAB_native_tests_executed_here": false,
+  "patient_data_analyzed_here": false,
+  "scope": "independent_equations_plus_source_wiring_not_MATLAB_execution",
+  "motion_fractional_rate_phase_and_amplitude": [
+    {
+      "source_Hz": 33.3,
+      "output_Hz": 33.3,
+      "frequency_Hz": 3.0,
+      "gain": 1.000000018974069,
+      "phase_rad": 2.323483348523732e-16,
+      "pass_error_dB": 0.00020882901316520016,
+      "stop_attenuation_dB": 94.0457600437891
+    },
+    {
+      "source_Hz": 33.3,
+      "output_Hz": 33.3,
+      "frequency_Hz": 6.0,
+      "gain": 1.0000002666350252,
+      "phase_rad": -3.625487688901316e-16,
+      "pass_error_dB": 0.00020882901316520016,
+      "stop_attenuation_dB": 94.0457600437891
+    },
+    {
+      "source_Hz": 33.3,
+      "output_Hz": 33.3,
+      "frequency_Hz": 9.0,
+      "gain": 1.0000023647721,
+      "phase_rad": 5.194128973017462e-16,
+      "pass_error_dB": 0.00020882901316520016,
+      "stop_attenuation_dB": 94.0457600437891
+    },
+    {
+      "source_Hz": 60.0,
+      "output_Hz": 60.0,
+      "frequency_Hz": 3.0,
+      "gain": 0.9999979229915116,
+      "phase_rad": -1.5961171404105596e-16,
+      "pass_error_dB": 0.00020882901316327147,
+      "stop_attenuation_dB": 94.04576004378912
+    },
+    {
+      "source_Hz": 60.0,
+      "output_Hz": 60.0,
+      "frequency_Hz": 6.0,
+      "gain": 0.9999939843685702,
+      "phase_rad": -3.973599582834813e-16,
+      "pass_error_dB": 0.00020882901316327147,
+      "stop_attenuation_dB": 94.04576004378912
+    },
+    {
+      "source_Hz": 60.0,
+      "output_Hz": 60.0,
+      "frequency_Hz": 9.0,
+      "gain": 0.9999929457653289,
+      "phase_rad": 1.451067215411217e-16,
+      "pass_error_dB": 0.00020882901316327147,
+      "stop_attenuation_dB": 94.04576004378912
+    },
+    {
+      "source_Hz": 125.0,
+      "output_Hz": 100.0,
+      "frequency_Hz": 3.0,
+      "gain": 1.000016463916493,
+      "phase_rad": -7.993430373409487e-09,
+      "pass_error_dB": 0.0002980309218312156,
+      "stop_attenuation_dB": 90.5528486659569
+    },
+    {
+      "source_Hz": 125.0,
+      "output_Hz": 100.0,
+      "frequency_Hz": 6.0,
+      "gain": 0.9999928324246732,
+      "phase_rad": -3.181244920450769e-11,
+      "pass_error_dB": 0.0002980309218312156,
+      "stop_attenuation_dB": 90.5528486659569
+    },
+    {
+      "source_Hz": 125.0,
+      "output_Hz": 100.0,
+      "frequency_Hz": 9.0,
+      "gain": 1.0000191884132201,
+      "phase_rad": 6.987409750820551e-09,
+      "pass_error_dB": 0.0002980309218312156,
+      "stop_attenuation_dB": 90.5528486659569
+    },
+    {
+      "source_Hz": 333.0,
+      "output_Hz": 100.0,
+      "frequency_Hz": 3.0,
+      "gain": 1.000007439879311,
+      "phase_rad": 5.985775725900053e-09,
+      "pass_error_dB": 0.0002762918956459964,
+      "stop_attenuation_dB": 90.01455183743221
+    },
+    {
+      "source_Hz": 333.0,
+      "output_Hz": 100.0,
+      "frequency_Hz": 6.0,
+      "gain": 1.0000177545683986,
+      "phase_rad": 4.749719238888484e-09,
+      "pass_error_dB": 0.0002762918956459964,
+      "stop_attenuation_dB": 90.01455183743221
+    },
+    {
+      "source_Hz": 333.0,
+      "output_Hz": 100.0,
+      "frequency_Hz": 9.0,
+      "gain": 1.0000203786602149,
+      "phase_rad": -3.676328407768852e-10,
+      "pass_error_dB": 0.0002762918956459964,
+      "stop_attenuation_dB": 90.01455183743221
+    }
+  ],
+  "motion_gaps_never_interpolated_across": true,
+  "hardware_clock_affine": {
+    "offset_seconds": -458.09999999999985,
+    "rate_ratio": 1.0001999999999998,
+    "six_ms_phase_error_at_9Hz": 19.44,
+    "default_phase_gate_degrees": 15
+  },
+  "signed_vector_motion_power": {
+    "rotation_invariance_max_error": 1.1102230246251565e-16,
+    "estimated_guarded_band_power": 0.5194914166950269,
+    "expected_power": 0.52,
+    "rectified_6Hz_coordinate_peak_Hz": 12.0
+  },
+  "harmonic_conditional_HAC": {
+    "raw_power": 0.5173711875534379,
+    "bias_corrected_power": 0.517355581153228,
+    "conditional_power_SD": 0.0016158942575648912,
+    "rotation_invariance": true,
+    "whole_search_confidence_guaranteed": false
+  },
+  "independent_oscillator_witness": {
+    "frequency_Hz": 6.0002276214450685,
+    "supported_fraction": 0.811875,
+    "vector_rotation_invariance": true,
+    "on_score_is_calibrated_posterior": false
+  },
+  "episode_and_abstention_accounting": {
+    "recall": 0.5,
+    "missed_burden": 0.5,
+    "negative_alarm_seconds_per_minute": 15.0,
+    "unknown_alarm_seconds": 1.0,
+    "total_abstention_recall": 0.0
+  },
+  "MIMO_interference_and_rank": {
+    "model_power": 0.35000000000000003,
+    "direct_fractions": [
+      2.8571428571428568,
+      0.7142857142857142
+    ],
+    "excluded_fractions": [
+      0.28571428571428564,
+      -1.857142857142857
+    ],
+    "sum_of_contributions_is_not_constrained_to_one": true,
+    "rank_deficient_inputs_reject_attribution": true
+  },
+  "held_out_target_invariance": {
+    "subjects": 12,
+    "training_subjects": 10,
+    "changed_test_target_factor": 1000,
+    "prediction_change": 0.0
+  },
+  "compression_capacity": {
+    "same_variance_and_global_PSD": true,
+    "disjoint_burst_waveform_MSE": 0.10000000000000016,
+    "example_operational_retention": 0.5000000000000001,
+    "harmful_compression_retention": -0.33333333333333326,
+    "total_information_in_bits_claimed": false
+  },
+  "source_wiring_inspected_not_executed": [
+    "ninth tuning argument retained",
+    "temporary per-task waveform packets",
+    "motion cache identity required",
+    "EMG hooks receive stripped config",
+    "test target cannot fit readout",
+    "common fixed-ridge tonic/MVC comparator",
+    "missing physical targets stay NaN",
+    "native dynamic abstention remains a miss",
+    "negative reference requires matching calibrated implementation policy",
+    "three independent reference-sensitivity rows",
+    "conditional intervals labelled",
+    "multi-muscle timing requires declared shared EMG clock"
+  ],
+  "source_motion_addendum_sha256": "181d7ceb7b5d6407c1d59121ce93b249aa1f8a2b05233016f8f8583b0e961412",
+  "MATLAB_files": 312
+}

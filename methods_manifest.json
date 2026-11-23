@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "welch_cfar",
+    "section": "2;9.2.1",
+    "family": "legacy",
+    "variant": "welch",
+    "description": "Mean Welch / ordered-statistic comparator",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "hann_tracker",
+    "section": "2;9.2.1",
+    "family": "legacy",
+    "variant": "hann",
+    "description": "Local Hann / off-state DP",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "dpss_tracker",
+    "section": "2;9.2.1",
+    "family": "legacy",
+    "variant": "dpss",
+    "description": "Local DPSS / off-state DP",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "switching_harmonic_kalman",
+    "section": "2;9.2.1",
+    "family": "legacy",
+    "variant": "kalman",
+    "description": "Original conditional-frequency robust Kalman starter",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "rms_envelope",
+    "section": "3",
+    "family": "representation",
+    "variant": "rms",
+    "description": "Root local carrier energy",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "variance_envelope",
+    "section": "3",
+    "family": "representation",
+    "variant": "variance",
+    "description": "Local carrier energy detector",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "analytic_envelope",
+    "section": "3",
+    "family": "representation",
+    "variant": "analytic",
+    "description": "Analytic carrier magnitude",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "analytic_power",
+    "section": "3",
+    "family": "representation",
+    "variant": "analytic_power",
+    "description": "Squared analytic carrier magnitude",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "multiband_demodulation",
+    "section": "3",
+    "family": "representation",
+    "variant": "multiband",
+    "description": "Fixed-band normalized envelope fusion",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "log_power_envelope",
+    "section": "3",
+    "family": "representation",
+    "variant": "log_power",
+    "description": "Log energy detector",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "robust_envelope",
+    "section": "3",
+    "family": "representation",
+    "variant": "robust",
+    "description": "Winsorized detection branch",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "tkeo_packets",
+    "section": "3",
+    "family": "representation",
+    "variant": "tkeo",
+    "description": "Teager-Kaiser packet proposals",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "second_moment_packets",
+    "section": "3",
+    "family": "representation",
+    "variant": "second_moment",
+    "description": "Local second-moment packet proposals",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "periodogram",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "periodogram",
+    "description": "One long periodogram",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "long_welch",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "long_welch",
+    "description": "Long-window Welch",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "median_welch",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "median",
+    "description": "Median Welch with exponential order-statistic correction",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "trimmed_welch",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "trimmed",
+    "description": "Trimmed Welch with exponential correction",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "ca_cfar",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "ca",
+    "description": "Cell-average background comparator",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "trimmed_cfar",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "trimmed_cfar",
+    "description": "Trimmed reference-cell background",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "multitaper_static",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "multitaper",
+    "description": "Record-averaged DPSS spectrum",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "thomson_harmonic_test",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "thomson",
+    "description": "DPSS coherent-line F statistic",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "robust_background_welch",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "robust_background",
+    "description": "Iterative robust log-spectrum background",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "filter_aware_welch",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "filter_aware",
+    "description": "Aperiodic background times known envelope response",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "specparam_type_welch",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "specparam",
+    "description": "Compact log aperiodic-plus-Gaussian fit",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "irasa_welch",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "irasa",
+    "description": "Irregular-resampling geometric background",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "harmonic_comb",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "comb",
+    "description": "Penalized harmonic-candidate comparison",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "autocorrelation",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "acf",
+    "description": "Timestamp-preserving autocorrelation",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "cepstrum",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "cepstrum",
+    "description": "Log-spectrum quefrency proposals",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "lomb_scargle",
+    "section": "4;12",
+    "family": "spectrum",
+    "variant": "lomb",
+    "description": "Irregular-time harmonic regression",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "ar_yule_walker",
+    "section": "4.4",
+    "family": "ar",
+    "variant": "yw",
+    "description": "Autoregressive covariance estimate",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "ar_burg",
+    "section": "4.4",
+    "family": "ar",
+    "variant": "burg",
+    "description": "Burg reflection-coefficient estimate",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "arma_hannan_rissanen",
+    "section": "4.4",
+    "family": "ar",
+    "variant": "arma",
+    "description": "Two-stage ARMA estimate",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "time_varying_ar",
+    "section": "4.4",
+    "family": "ar",
+    "variant": "tvar",
+    "description": "Forgetting-factor recursive AR",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "music",
+    "section": "4.5",
+    "family": "subspace",
+    "variant": "music",
+    "description": "Noise-subspace frequency search",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "esprit",
+    "section": "4.5",
+    "family": "subspace",
+    "variant": "esprit",
+    "description": "Shift-invariant subspace frequencies",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "matrix_pencil",
+    "section": "4.5",
+    "family": "subspace",
+    "variant": "pencil",
+    "description": "Hankel exponential-mode pencil",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "atomic_norm_lines",
+    "section": "4.5",
+    "family": "subspace",
+    "variant": "atomic",
+    "description": "Toeplitz PSD atomic-norm ADMM",
+    "cost": "expensive",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "multiresolution_stft",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "multires",
+    "description": "Short/long local spectrum fusion",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "cwt_morlet",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "morlet",
+    "description": "Complex Morlet transform",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "cwt_morse",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "morse",
+    "description": "Generalized Morse transform",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "bosc",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "bosc",
+    "description": "Background-ratio and cycle-duration logic",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "ebosc_type",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "ebosc",
+    "description": "Burst detection with support-aware edge erosion",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "fbosc_type",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "fbosc",
+    "description": "Burst detection with fitted aperiodic background",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "optimized_bosc_type",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "obosc",
+    "description": "Burst detection with peak-excluding robust background",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "superlet",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "superlet",
+    "description": "Geometric multi-cycle wavelet combination",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "stppto_type",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "stppto",
+    "description": "Superlet plus periodic/aperiodic background",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "synchrosqueezing",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "sst",
+    "description": "Thresholded phase-derivative synchrosqueezing",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "reassignment",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "reassign",
+    "description": "STFT time and frequency reassignment",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "s_transform",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "stransform",
+    "description": "Frequency-dependent Gaussian S transform",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "smoothed_pseudo_wigner_ville",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "spwvd",
+    "description": "Lag/time-smoothed quadratic distribution",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "viterbi_track_before_detect",
+    "section": "5.1;9.2.2",
+    "family": "timefrequency",
+    "variant": "viterbi",
+    "description": "Off-state path inference over local evidence",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "conceft",
+    "section": "5.5",
+    "family": "timefrequency",
+    "variant": "conceft",
+    "description": "Random Hermite-taper STFT synchrosqueezing",
+    "cost": "expensive",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "matched_filter_glrt",
+    "section": "5.8;8.5",
+    "family": "packets",
+    "variant": "matched",
+    "description": "Sinusoidal colored-noise GLRT bank",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "harmonic_glrt",
+    "section": "5.8;8.5",
+    "family": "packets",
+    "variant": "harmonic",
+    "description": "Shared-frequency multi-harmonic GLRT",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "chirplet_glrt",
+    "section": "5.8;8.5",
+    "family": "packets",
+    "variant": "chirplet",
+    "description": "Frequency/chirp packet GLRT",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "matching_pursuit",
+    "section": "5.8;8.5",
+    "family": "packets",
+    "variant": "omp",
+    "description": "Greedy localized harmonic packet pursuit",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "group_sparse_packets",
+    "section": "5.8;8.5",
+    "family": "packets",
+    "variant": "group_sparse",
+    "description": "Group sparse packet support and unpenalized refit",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "cycle_by_cycle",
+    "section": "5.9",
+    "family": "cycles",
+    "variant": "cycles",
+    "description": "Broad-envelope cycle timing audit",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "renewal_interburst",
+    "section": "5.9",
+    "family": "cycles",
+    "variant": "renewal",
+    "description": "Packet-interval renewal evidence",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "grid_oscillator",
+    "section": "6",
+    "family": "oscillator",
+    "variant": "grid",
+    "description": "Interacting frequency-grid oscillators",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "switching_oscillator_smoother",
+    "section": "6",
+    "family": "oscillator",
+    "variant": "imm",
+    "description": "IMM with backward mode probabilities / conditional RTS",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "robust_switching_oscillator",
+    "section": "6",
+    "family": "oscillator",
+    "variant": "robust",
+    "description": "Student-t working observation updates",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "contamination_mixture_oscillator",
+    "section": "6",
+    "family": "oscillator",
+    "variant": "contamination",
+    "description": "Gaussian-contamination observation mixture",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "semi_markov_oscillator",
+    "section": "6",
+    "family": "oscillator",
+    "variant": "hsmm",
+    "description": "Expanded-duration on/off model",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "ekf_oscillator",
+    "section": "6",
+    "family": "oscillator",
+    "variant": "ekf",
+    "description": "Unknown-frequency extended Kalman oscillator",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "ukf_oscillator",
+    "section": "6",
+    "family": "oscillator",
+    "variant": "ukf",
+    "description": "Unknown-frequency unscented Kalman oscillator",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "carrier_variance_ekf",
+    "section": "6",
+    "family": "oscillator",
+    "variant": "variance_ekf",
+    "description": "Gamma-energy working-likelihood log-variance EKF",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "particle_oscillator",
+    "section": "6.1",
+    "family": "oscillator",
+    "variant": "particle",
+    "description": "Rao-Blackwellized frequency/on-off particles",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "amplitude_hmm",
+    "section": "6.7",
+    "family": "latent",
+    "variant": "amplitude",
+    "description": "Gaussian envelope HMM plus rhythmic proposal",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "time_delay_hmm",
+    "section": "6.7",
+    "family": "latent",
+    "variant": "tde",
+    "description": "Time-delay covariance HMM",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "gp_quasiperiodic",
+    "section": "6.7",
+    "family": "latent",
+    "variant": "quasiperiodic",
+    "description": "Local quasi-periodic covariance decomposition",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "gp_spectral_mixture",
+    "section": "6.7",
+    "family": "latent",
+    "variant": "spectral_mixture",
+    "description": "Local Gaussian spectral-mixture covariance",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "pll",
+    "section": "6.8",
+    "family": "adaptive",
+    "variant": "pll",
+    "description": "Gated phase-locked loop",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "wflc",
+    "section": "6.8",
+    "family": "adaptive",
+    "variant": "wflc",
+    "description": "Adaptive harmonic frequency combiner",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "bmflc",
+    "section": "6.8",
+    "family": "adaptive",
+    "variant": "bmflc",
+    "description": "Fixed-frequency adaptive combiner bank",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "adaptive_line_enhancer",
+    "section": "6.8",
+    "family": "adaptive",
+    "variant": "ale",
+    "description": "Delayed normalized LMS predictor",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "wiener_filter",
+    "section": "6.8",
+    "family": "adaptive",
+    "variant": "wiener",
+    "description": "Spectral Wiener detection branch",
+    "cost": "normal",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "cyclic_coherence",
+    "section": "7",
+    "family": "cyclic",
+    "variant": "global",
+    "description": "Carrier frequency-pair cyclic coherence",
+    "cost": "expensive",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "cyclic_local_tracker",
+    "section": "7",
+    "family": "cyclic",
+    "variant": "local",
+    "description": "Local carrier cyclic map / off-state tracker",
+    "cost": "expensive",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "entropy_weighted_cyclic",
+    "section": "7",
+    "family": "cyclic",
+    "variant": "entropy",
+    "description": "Adaptive negative-entropy carrier weighting",
+    "cost": "expensive",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "wavelet_shrinkage",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "wavelet",
+    "description": "Orthogonal Haar shrinkage detector",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "wavelet_packets",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "wavelet_packets",
+    "description": "Haar packet band proposals",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "emd",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "emd",
+    "description": "Empirical mode sifting",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "eemd",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "eemd",
+    "description": "Noise-assisted ensemble sifting",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "ceemdan",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "ceemdan",
+    "description": "Complete ensemble adaptive-noise sifting",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "hilbert_huang",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "hht",
+    "description": "EMD instantaneous-frequency proposals",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "vmd",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "vmd",
+    "description": "Variational narrowband-mode ADMM",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "ssa",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "ssa",
+    "description": "Hankel oscillatory-pair reconstruction",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "hankel_low_rank",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "hankel",
+    "description": "Hankel rank truncation",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "robust_pca",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "rpca",
+    "description": "Inexact augmented-Lagrangian low-rank/sparse split",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "nmf_spectrogram",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "nmf",
+    "description": "Nonnegative time-frequency motifs",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "tv_baseline",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "tv",
+    "description": "Total-variation background",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "trend_filtering",
+    "section": "8",
+    "family": "decomposition",
+    "variant": "trend",
+    "description": "Second-difference trend background",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "bicoherence",
+    "section": "8.7;8.8",
+    "family": "auxiliary",
+    "variant": "bicoherence",
+    "description": "Fundamental/second-harmonic phase coupling",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "kurtogram",
+    "section": "8.7;8.8",
+    "family": "auxiliary",
+    "variant": "kurtosis",
+    "description": "Carrier-band kurtosis proposals",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "entropy_band_selection",
+    "section": "8.7;8.8",
+    "family": "auxiliary",
+    "variant": "entropy",
+    "description": "Carrier-band spectral-entropy proposals",
+    "cost": "normal",
+    "readiness": "implemented",
+    "implementationScope": "compact_research_implementation"
+  },
+  {
+    "id": "convolutional_dictionary",
+    "section": "8.5;8.9",
+    "family": "learned",
+    "variant": "dictionary",
+    "description": "Frozen learned packet dictionary",
+    "cost": "expensive",
+    "readiness": "requires_model",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "deep_denoiser",
+    "section": "8.5;8.9",
+    "family": "learned",
+    "variant": "denoiser",
+    "description": "Frozen external neural denoiser",
+    "cost": "expensive",
+    "readiness": "requires_model",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "denoising_autoencoder",
+    "section": "8.5;8.9",
+    "family": "learned",
+    "variant": "autoencoder",
+    "description": "Trainable compact denoising autoencoder",
+    "cost": "expensive",
+    "readiness": "requires_model",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "transformer_estimator",
+    "section": "8.5;8.9",
+    "family": "learned",
+    "variant": "transformer",
+    "description": "Frozen external transformer estimator",
+    "cost": "expensive",
+    "readiness": "requires_model",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "learned_spectrogram_classifier",
+    "section": "8.5;8.9",
+    "family": "learned",
+    "variant": "classifier",
+    "description": "Frozen external spectrogram episode classifier",
+    "cost": "expensive",
+    "readiness": "requires_model",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "ica_single_channel",
+    "section": "8.10",
+    "family": "unavailable",
+    "variant": "ica",
+    "description": "Spatial ICA requires independent channels",
+    "cost": "normal",
+    "readiness": "unsupported_input",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "spatial_bss_single_channel",
+    "section": "8.10",
+    "family": "unavailable",
+    "variant": "bss",
+    "description": "Spatial BSS is unidentified from one scalar channel",
+    "cost": "normal",
+    "readiness": "unsupported_input",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "motor_unit_decomposition",
+    "section": "8.10",
+    "family": "unavailable",
+    "variant": "motor_units",
+    "description": "Requires a validated decomposition implementation / compatible acquisition",
+    "cost": "normal",
+    "readiness": "unsupported_input",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "combo_calibrated_conventional",
+    "section": "9.2",
+    "family": "combination",
+    "variant": "conventional",
+    "description": "Combination 1: robust background / harmonic comparison / peak area",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "combo_practical_bursts",
+    "section": "9.2",
+    "family": "combination",
+    "variant": "practical",
+    "description": "Combination 2: multiresolution / off-state tracker / refit",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "combo_wavelet_bursts",
+    "section": "9.2",
+    "family": "combination",
+    "variant": "wavelet",
+    "description": "Combination 3: Morse / robust background / duration / refit",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "combo_probabilistic_oscillator",
+    "section": "9.2",
+    "family": "combination",
+    "variant": "probabilistic",
+    "description": "Combination 4: multiresolution initialized robust IMM smoother",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "combo_carrier_informed",
+    "section": "9.2",
+    "family": "combination",
+    "variant": "carrier",
+    "description": "Combination 5: soft cyclic evidence in robust oscillator",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "combo_drift_focused",
+    "section": "9.2",
+    "family": "combination",
+    "variant": "drift",
+    "description": "Combination 6: SST / gap-aware ridge / refit",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "combo_sparse_episodes",
+    "section": "9.2",
+    "family": "combination",
+    "variant": "sparse",
+    "description": "Combination 7: group-sparse chirplet and impulse dictionary",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  },
+  {
+    "id": "combo_concordance_review",
+    "section": "9.2",
+    "family": "combination",
+    "variant": "concordance",
+    "description": "Combination 8: spectral/probabilistic concordance and review",
+    "cost": "expensive",
+    "readiness": "not_implemented",
+    "implementationScope": "unavailable_for_automated_study"
+  }
+]
